@@ -8,9 +8,7 @@ import BookCards from "./components/bookCards";
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Jumbo />
-      <SearchBar />
       <BookCards />
     </div>
   );

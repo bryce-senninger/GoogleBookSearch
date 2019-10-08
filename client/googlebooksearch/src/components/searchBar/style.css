@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  width: 40%;
+  margin-bottom: 0;
+}
+
+button {
+  width: 10%;
+}
