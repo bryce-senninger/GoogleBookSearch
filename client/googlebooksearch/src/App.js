@@ -1,32 +1,22 @@
 import React from "react";
-import "./App.css";
-import Nav from "./components/navBar";
-import Jumbo from "./components/jumbo";
-import SearchBar from "./components/searchBar";
-import BookCards from "./components/bookCards";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import SavedJumbo from "./components/savedJumbo";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "./components/navBar";
+import Search from "./pages/search";
+import Bookshelf from "./pages/saved";
+import NoMatch from "./pages/noMatch";
 
-function App() {
-  return (
-    <Router>
+const App = () => (
+  <Router>
+    <div>
+      <NavBar />
       <Switch>
-        <Route path="/saved">
-          <SavedJumbo />
-        </Route>
-        <Route path="/">
-          <Jumbo />
-        </Route>
+        <Route exact path="/" component={Search} />
+        <Route exact path="/search" component={Search} />
+        <Route exact path="/saved" component={Bookshelf} />
+        <Route component={NoMatch} />
       </Switch>
-    </Router>
-  );
-}
+    </div>
+  </Router>
+);
 
 export default App;
-
-{
-  /* <div className="App">
-  <Jumbo />
-  <BookCards />
-</div>; */
-}

@@ -4,9 +4,10 @@ const booksController = require("../../controllers/booksController");
 router.route("/").post(booksController.create);
 
 router
-  .route("/saved")
-  .get(booksController.findAll)
-  .put(booksController.update)
-  .delete(booksController.remove);
+  .route("/")
+  .get(bookshelfController.findAll)
+  .post(bookshelfController.create);
+
+router.route("/:id").delete(bookshelfController.delete);
 
 module.exports = router;

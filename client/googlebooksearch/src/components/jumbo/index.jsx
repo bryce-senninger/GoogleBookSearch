@@ -1,22 +1,23 @@
 import React from "react";
-import NavBar from "../navBar";
-import SearchBar from "../searchBar";
 import "./style.css";
 
-function Jumbo() {
+function Jumbotron(props) {
   return (
-    <div className="jumbotron">
-      <NavBar />
-      <h1 className="display-4">Book Search</h1>
-      <p className="lead">
-        “I have always imagined that Paradise will be a kind of library.” ―
-        Jorge Luis Borges
-      </p>
-      <hr className="my-4" />
-      <p>Search for and Save Books of Interest, Find Your Paradise</p>
-      <SearchBar />
+    <div className="container mt-4">
+      <div
+        className="jumbotron text-center text-white"
+        style={{
+          backgroundImage: `url(${props.image})`,
+          backgroundSize: "cover"
+        }}
+      >
+        <h1 className="display-4 title">{props.title}</h1>
+        <p className="lead">{props.lead}</p>
+        <hr className="my-4" />
+        <p className="instructions">{props.instructions}</p>
+      </div>
     </div>
   );
 }
 
-export default Jumbo;
+export default Jumbotron;
