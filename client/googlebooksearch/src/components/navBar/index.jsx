@@ -6,12 +6,12 @@ function Nav() {
     <div className="navWrap">
       <ul className="nav justify-content-end">
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="/">
             Search Books
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="/saved">
             Saved Books
           </a>
         </li>
