@@ -91,10 +91,13 @@ class Search extends Component {
     return (
       <div className="container">
         <Jumbotron
-          title="Search"
-          lead="Using Google Books API"
-          instructions="Search for a book; then view it on Google Books, or add it to your Bookshelf..."
-          image="https://www.travelcaffeine.com/wp-content/uploads/2017/07/last-bookstore-tunnel-downtown-los-angeles-california-876.jpg"
+          title="Book Search"
+          quote="“I have always imagined that Paradise will be a kind of library.”
+
+― Jorge Luis Borges "
+          lead=""
+          instructions="Browse by title or author, then view results in Google Books are add it to your bookshelf"
+          image=""
         />
         <SearchForm
           handleInputChange={this.handleInputChange}

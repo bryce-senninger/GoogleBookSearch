@@ -1,3 +1,17 @@
-.navWrap {
-  padding-top: 0px;
+.navbar {
+  background-color: rgb(209, 202, 181, 0.9);
+  border-bottom-style: ridge;
+  border-right-style: solid;
+  border-left-style: ridge;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+}
+
+
+.icon {
+  height: 40px;
+}
+
+nav {
+  color: white;
 }

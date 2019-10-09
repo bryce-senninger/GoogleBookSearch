@@ -1,4 +1,22 @@
 .jumbotron {
+  background-color: rgb(209, 202, 181, 0.9);
   padding-top: 5px;
   padding-bottom: 15px;
+  border-style: ridge;
+  border-width: 4px;
+  border-color: white;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.quote {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+
+.title {
+  font-size: 60px;
 }

@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 243, 0);
+  font-family: "EB Garamond", serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  background: url("images/library.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  background-color: rgb(209, 202, 181, 0.9);
+  width: 80%;
+  margin: 0 auto;
+  border-style: ridge;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+}
+
+nav .navbar-nav li a {
+  color: black !important;
+  text-decoration: underline;
+}
+
+nav:active .navbar-nav:active li:active a:active {
+  color: white !important;
 }

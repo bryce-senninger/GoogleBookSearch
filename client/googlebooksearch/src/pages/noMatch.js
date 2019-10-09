@@ -8,7 +8,7 @@ function NoMatch() {
         image="http://www.justscience.in/wp-content/uploads/2018/01/what-would-happen-if-someone-detonated-a-nuclear-bomb-today.jpg"
         title="404"
         lead="Page Not Found"
-        instructions="Run for Your Lives!!!"
+        instructions=""
       />
     </div>
   );
