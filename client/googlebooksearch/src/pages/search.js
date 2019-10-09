@@ -96,7 +96,7 @@ class Search extends Component {
 
 ― Jorge Luis Borges "
           lead=""
-          instructions="Browse by title or author, then view results in Google Books are add it to your bookshelf"
+          instructions="Browse by title or author, then view results in Google Books or add it to your bookshelf"
           image=""
         />
         <SearchForm

@@ -15,7 +15,7 @@ function SearchForm(props) {
                   onChange={props.handleInputChange}
                   className="form-control"
                   id="book-search"
-                  placeholder="eg. For Whom the Bell Tolls"
+                  placeholder="e.g. For Whom the Bell Tolls"
                 />
               </div>
               <button
