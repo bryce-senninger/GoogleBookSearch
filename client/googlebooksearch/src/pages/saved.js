@@ -34,8 +34,8 @@ class Bookshelf extends Component {
           quote="“So many books, so little time.”
 
 ― Frank Zappa "
-          instructions="All of your saved titles in one convenient location. View a book from your shelf on Google Books, or remove it from your bookshelf."
-          image="https://i0.wp.com/www.wayfaringviews.com/wp-content/uploads/2016/05/Last_Bookstore.jpg?ssl=1"
+          instructions="All of your saved titles in one convenient location"
+          details="View a book from your shelf on Google Books, or remove it from your bookshelf"
         />
         <BookCard
           books={this.state.books}

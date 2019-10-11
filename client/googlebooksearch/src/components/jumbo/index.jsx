@@ -10,6 +10,7 @@ function Jumbotron(props) {
         <p className="lead">{props.lead}</p>
         <hr className="my-4" />
         <p className="instructions">{props.instructions}</p>
+        <p className="details">{props.details}</p>
       </div>
     </div>
   );
