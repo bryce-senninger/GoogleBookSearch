@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 // Re-usable Stateless Component for both the Search and the Bookshelf Pages.
 function BookCard(props) {
