@@ -30,11 +30,11 @@ class Bookshelf extends Component {
       <div className="container">
         <Jumbotron
           title="My Bookshelf"
-          lead="All of Your Saved Books in One Convenient Location."
+          lead=""
           quote="“So many books, so little time.”
 
 ― Frank Zappa "
-          instructions="View your book at Google, or remove it from your Bookshelf..."
+          instructions="All of your saved titles in one convenient location. View a book from your shelf on Google Books, or remove it from your bookshelf."
           image="https://i0.wp.com/www.wayfaringviews.com/wp-content/uploads/2016/05/Last_Bookstore.jpg?ssl=1"
         />
         <BookCard

@@ -5,9 +5,9 @@ router.route("/").post(booksController.create);
 
 router
   .route("/")
-  .get(bookshelfController.findAll)
-  .post(bookshelfController.create);
+  .get(booksController.findAll)
+  .post(booksController.create);
 
-router.route("/:id").delete(bookshelfController.delete);
+router.route("/:id").delete(booksController.delete);
 
 module.exports = router;

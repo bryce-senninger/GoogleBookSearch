@@ -62,7 +62,7 @@ class Search extends Component {
     API.saveBook(newSave)
       .then(res => {
         console.log(res.status, res.statusText);
-        this.props.alert.show("Book Saved!", { type: "success" });
+        alert("Book has been Saved to your Bookshelf!");
       })
       .catch(err => {
         console.log(err);

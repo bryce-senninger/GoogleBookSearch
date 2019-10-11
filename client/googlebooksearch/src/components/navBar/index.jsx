@@ -9,7 +9,7 @@ function Index() {
     <nav className="navbar navbar-expand-lg">
       <ul className="navbar-nav mr-auto">
         <li>
-          <img className="icon" src={image2}></img>
+          <img className="icon" alt="magnifyingglass" src={image2}></img>
         </li>
         <li className="nav-item">
           <Link
@@ -25,13 +25,13 @@ function Index() {
           </Link>
         </li>
         <li>
-          <img className="icon" src={image}></img>
+          <img className="icon" alt="bookshelf" src={image}></img>
         </li>
         <li className="nav-item">
           <Link
-            to="/bookshelf"
+            to="/saved"
             className={
-              window.location.pathname === "/bookshelf"
+              window.location.pathname === "/saved"
                 ? "nav-link active"
                 : "nav-link"
             }
