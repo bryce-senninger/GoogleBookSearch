@@ -6,7 +6,7 @@ import image2 from "./glass.png";
 
 function Index() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-right">
+    <nav className="navbar navbar-expand-lg">
       <ul className="navbar-nav mr-auto">
         <li>
           <img className="icon" src={image2}></img>

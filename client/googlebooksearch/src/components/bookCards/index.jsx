@@ -12,7 +12,7 @@ function BookCard(props) {
             key={book._id ? book._id : book.googleBookId}
           >
             <div className="card-body">
-              <h5 className="card-title">{book.title}</h5>
+              <h4 className="card-title">{book.title}</h4>
               <h6 className="card-subtitle mb-2 text-muted">{book.subtitle}</h6>
               <div className="media">
                 <img
@@ -26,11 +26,6 @@ function BookCard(props) {
                   <p className="mb-0">
                     <small className="text-muted">
                       {book.pageCount} pages.
-                    </small>
-                  </p>
-                  <p className="mb-2">
-                    <small className="text-muted">
-                      Published: {book.publishedDate}
                     </small>
                   </p>
                 </div>
