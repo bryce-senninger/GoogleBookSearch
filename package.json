@@ -1,4 +1,4 @@
-{
+gi{
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -7,9 +7,9 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd ../client/googlebooksearch && npm run start",
-    "install": "cd ../client/googlebooksearch && npm install",
-    "build": "cd ../client/googlebooksearch && npm run build",
+    "client": "cd client/googlebooksearch && npm run start",
+    "install": "cd client/googlebooksearch && npm install",
+    "build": "cd client/googlebooksearch && npm run build",
     "heroku-postbuild": "npm run build"
   },
   "author": "",
